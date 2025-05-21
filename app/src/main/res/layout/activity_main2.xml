@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="437dp"
+        android:layout_height="882dp"
+        app:srcCompat="@drawable/gradient_background"
+        tools:layout_editor_absoluteX="-13dp"
+        tools:layout_editor_absoluteY="-147dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="209dp"
+        android:layout_height="240dp"
+        app:srcCompat="@drawable/doctor"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="128dp"
+        android:layout_height="103dp"
+        app:srcCompat="@drawable/download"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="108dp"
+        android:layout_height="44dp"
+        android:text="Welcome ! AyLI"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="119dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
